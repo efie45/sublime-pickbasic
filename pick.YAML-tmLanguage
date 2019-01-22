@@ -19,11 +19,11 @@ patterns:
 
 #strings
 - name: string.other.quoted-or-unquoted.pick
-  match: (\'[A-Za-z0-9\:\-\_ ]*\'|\"[A-Za-z0-9\:\-\_ ]*\")
+  match: (\'.*\'|\".*\")
 
 #conditionals
 - name: keyword.control.pick
-  match: \b^\.(BEGIN|CASE|DO|ELSE|END|ERROR|FOR|FROM|GO|GOSUB|GOTO|IF|LOOP|NEXT|ON|REPEAT|THEN|TO|UNTIL|WHILE)^\.\b
+  match: \b(BEGIN|CASE|DO|ELSE|END|ERROR|FOR|FROM|GO|GOSUB|GOTO|IF|LOOP|NEXT|ON|REPEAT|THEN|TO|UNTIL|WHILE)\b
 
 #operators
 - name: keyword.operator.pick

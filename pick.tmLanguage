@@ -39,13 +39,13 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>(\'[A-Za-z0-9\:\-\_ ]*\'|\"[A-Za-z0-9\:\-\_ ]*\")</string>
+			<string>(\'.*\'|\".*\")</string>
 			<key>name</key>
 			<string>string.other.quoted-or-unquoted.pick</string>
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>\b^\.(BEGIN|CASE|DO|ELSE|END|ERROR|FOR|FROM|GO|GOSUB|GOTO|IF|LOOP|NEXT|ON|REPEAT|THEN|TO|UNTIL|WHILE)^\.\b</string>
+			<string>\b(BEGIN|CASE|DO|ELSE|END|ERROR|FOR|FROM|GO|GOSUB|GOTO|IF|LOOP|NEXT|ON|REPEAT|THEN|TO|UNTIL|WHILE)\b</string>
 			<key>name</key>
 			<string>keyword.control.pick</string>
 		</dict>
