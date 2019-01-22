@@ -33,7 +33,7 @@
 			<key>comment</key>
 			<string>this will highlight the subroutine keyword and the name of the subroutine seperately</string>
 			<key>match</key>
-			<string>(SUBROUTINE)\s+([A-Z_-]+)</string>
+			<string>(SUBROUTINE)\s+((?:[A-Z]+\S*)+)</string>
 			<key>name</key>
 			<string>entity.name.function.pick</string>
 		</dict>

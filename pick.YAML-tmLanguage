@@ -11,7 +11,7 @@ patterns:
 
 #entities
 - name: entity.name.function.pick
-  match: (SUBROUTINE)\s+([A-Z_-]+)
+  match: (SUBROUTINE)\s+((?:[A-Z]+\S*)+)
   captures:
       '1': {name: storage.type.pick}
       '2': {name: entity.name.function.pick}
